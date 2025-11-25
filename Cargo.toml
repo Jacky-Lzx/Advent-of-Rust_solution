@@ -1,18 +1,13 @@
+bin = [
+  { name = "main", path = "src/main.rs" },
+  { name = "day_1", path = "src/Advent-of-Rust_2024/Day_1.rs" },
+  { name = "day_2", path = "src/Advent-of-Rust_2024/Day_2.rs" },
+]
+
 [package]
 name = "advent-of-rust"
 version = "0.1.0"
 edition = "2024"
+publish = false
 
 [dependencies]
-
-[[bin]]
-name = "main"
-path = "src/Advent-of-Rust_2024/main.rs"
-
-[[bin]]
-name = "day_1"
-path = "src/Advent-of-Rust_2024/Day_1.rs"
-
-[[bin]]
-name = "day_2"
-path = "src/Advent-of-Rust_2024/Day_2.rs"
