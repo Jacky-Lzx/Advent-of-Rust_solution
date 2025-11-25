@@ -6,9 +6,13 @@ edition = "2024"
 [dependencies]
 
 [[bin]]
+name = "main"
+path = "src/Advent-of-Rust_2024/main.rs"
+
+[[bin]]
 name = "day_1"
 path = "src/Advent-of-Rust_2024/Day_1.rs"
 
 [[bin]]
-name = "main"
-path = "src/Advent-of-Rust_2024/main.rs"
+name = "day_2"
+path = "src/Advent-of-Rust_2024/Day_2.rs"
