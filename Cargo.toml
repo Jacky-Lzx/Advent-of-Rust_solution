@@ -11,6 +11,7 @@ bin = [
   { name = "day_9", path = "src/Advent-of-Rust_2024/Day_9.rs" },
   { name = "day_10", path = "src/Advent-of-Rust_2024/Day_10.rs" },
   { name = "day_11", path = "src/Advent-of-Rust_2024/Day_11.rs" },
+  { name = "day_12", path = "src/Advent-of-Rust_2024/Day_12.rs" },
 ]
 
 [package]
