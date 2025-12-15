@@ -20,6 +20,7 @@ bin = [
   { name = "day_18", path = "src/Advent-of-Rust_2024/Day_18.rs" },
   { name = "day_19", path = "src/Advent-of-Rust_2024/Day_19.rs" },
   { name = "day_20", path = "src/Advent-of-Rust_2024/Day_20.rs" },
+  { name = "day_21", path = "src/Advent-of-Rust_2024/Day_21.rs" },
 ]
 
 [package]
@@ -27,5 +28,3 @@ name = "advent-of-rust"
 version = "0.1.0"
 edition = "2024"
 publish = false
-
-[dependencies]
